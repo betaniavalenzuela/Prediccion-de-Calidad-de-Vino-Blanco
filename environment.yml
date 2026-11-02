@@ -1,0 +1,17 @@
+name: prediccion_de_la_calidad_del_vino_blanco
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - ruff
+  - pip:
+    - python-dotenv
+    - -e .
